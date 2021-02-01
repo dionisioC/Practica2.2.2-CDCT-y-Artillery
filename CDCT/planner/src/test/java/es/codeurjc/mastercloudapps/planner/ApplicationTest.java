@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @AutoConfigureStubRunner(ids = {"dcortesf:toposervice:+:stubs:8080"}, stubsMode = StubsMode.LOCAL)
-public class ApplicationTests {
+public class ApplicationTest {
 
     @Test
     void verify_topo_service_madrid() {
